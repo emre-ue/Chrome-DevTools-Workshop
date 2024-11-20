@@ -1,0 +1,150 @@
+/* Globale Stile */
+html {
+    font-family: "Times New Roman", serif;
+    background: rgb(153, 204, 255);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    background-color: yellow;
+    color: red;
+    text-align: left;
+    padding: 20px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.marquee {
+    color: blue;
+    font-size: 20px;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    background: linear-gradient(to right, orange, purple);
+    padding: 10px;
+}
+
+.nav-item {
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+.nav-item:nth-child(2) {
+    color: pink;
+    border: 2px dotted green;
+}
+
+.nav-item:nth-child(3) {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.nav-item:nth-child(4) {
+    color: black;
+    background-color: lime;
+}
+
+/* About Section */
+.about {
+    margin: 20px;
+    padding: 15px;
+    border: 5px dashed red;
+    background-color: lightblue;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 30px;
+    color: purple;
+}
+
+.about p {
+    font-size: 18px;
+    color: darkred;
+}
+
+.about p:nth-child(2) {
+    font-size: 16px;
+    color: darkgreen;
+}
+
+/* Attractions Section */
+.attractions {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.attractions h2 {
+    color: red;
+}
+
+.attractions ul {
+    list-style-type: square;
+    color: blue;
+}
+
+/* Tickets Section */
+.tickets {
+    padding: 10px;
+    background-color: lime;
+    border: 3px dotted magenta;
+}
+
+.tickets h2 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.tickets form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tickets label {
+    color: red;
+}
+
+.tickets input[type="text"],
+.tickets input[type="email"] {
+    border: 2px solid orange;
+    background-color: yellow;
+}
+
+.tickets input[type="email"] {
+    border: 2px dashed green;
+    background-color: lightblue;
+}
+
+.tickets button {
+    background-color: red;
+    color: yellow;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2vw 15vw 0vw 15vw;
+}
